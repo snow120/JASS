@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+  display: flex;
+
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  background-color: white;
+  padding : 10px;
+  border-radius: 5px;
+  position: relative;
+  padding: 5px;
+  height: 500px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  /* background-color: rgb(114, 127, 135, 0.2); */
+  background-color:black;
+  border-radius: 5px;
+  /* color: white; */
+  margin: 0px 10px;
+  padding: 5px;
+  /* border : 1px solid black; */
+  display: flex;
+  align-items: center;
+  width: 92%;
+}
+.header h {
+  color: white;
+  
+  margin: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#formulas {
+  width: 200px;
+  color: black;
+  padding : 5px;
+  background-color:rgb(114, 127, 135,0.2);
+  border-radius: 5px;
+  margin: 15px 10px;
+  position: absolute;
+  left: 24%;
+}
+.inputsConatiner {
+  position: absolute;
+  top: 110px;
+  margin-top: 10px;
+  left: 27%;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  margin: 5px 10px;
+  border-radius: 5px;
+  padding : 5px;
+  width: 330px;
+  border : 1px solid black;
+}
+.answer {
+  /* background-color:  rgb(114, 127, 135, 0.2); */
+  background-color:black;
+  border-radius:5px;
+  position: absolute;
+  border: 1px solid black;
+  /* pointer-events: none; */
+  bottom: 0px;
+  height: 149px;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 10px;
+  width: 380px;
+}
+
+.button {
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  top: 200px;
+  left: 0px;
+  /* background-color :black; */
+}
+.button button {
+  margin: 10px 10px;
+  padding : 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.button button:hover{
+    background-color: black;
+    color: white;
+    
+}
+#formulas:hover{
+    background-color:gainsboro;
+}
+.calculate {
+  float: right;
+}
+.ans{
+    text-decoration: underline dotted white;
+    color:white;
+
+    
+}
+#unit{
+    padding : 2px;
+    /* position : absolute */
+    position : absolute;
+    right : 0px;
+    /* border:1px solid white; */
+    height:23px;
+    border-radius: 5px;
+    margin : 10px 10px;
+    top : 0px;
+    background-color:gainsboro;
+
+}
+
+/* #unit:hover{
+    
+} */

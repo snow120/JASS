@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styleFirst.css" />
+    <script src = "scriptFirst.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h>Kinematics Equation Solver</h>
+      </div>
+      <div class="inputs">
+        <select name="formula" id="formulas">
+          <option value="select an equation">Select an equation</option>
+          <option value="speed">Speed</option>
+          <option value="veolcity">Velocity</option>
+          <option value="acceleration">Acceleration</option>
+          <option value="kinetic energy">Kinetic Energy</option>
+        </select>
+        <div class="inputsConatiner">
+          <input type="text"  onkeypress='return event.charCode >= 46 && event.charCode <= 57' id="value1" />
+          <input type="text" onkeypress='return event.charCode >= 46 && event.charCode <= 57'  id="value2" />
+        </div>
+        <div class="button">
+          <button class="clear" id="clear">Clear</button>
+          <button class="calculate" id = "calculate">Calculate</button>
+        </div>
+      </div>
+      <div class="answer">
+        <select name="unit" id="unit">
+          <option value="SI">SI</option>
+          <option value="CGS">CGS</option>
+        </select>
+        <p class="ans" id="ans"></p>
+      </div>
+    </div>
+  </body>
+</html>
